@@ -1,0 +1,67 @@
+@import url(cores.css);
+
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html{
+	font-size: 12px;
+}
+
+body {
+	margin: 0;
+	color: #333;
+    background-color: #E0E0E0;
+}
+
+
+a {
+	color: #E0E0E0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #E0E0E0;
+	text-decoration: underline;
+}
+
+form label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+form label span {
+    font-size: 12px;
+    display: block;
+}
+
+form label select,
+form label input[type="text"],
+form label input[type="email"],
+form label input[type="password"] {
+    display: block;
+    padding: 8px;
+    margin-bottom: 5px;
+	width: 100%;
+	font-size: 18px;
+}
+
+button {
+    border: none;
+    background-color: var(--cor-principal);
+    color: #FFF;
+    padding: 10px 20px;
+	font-size: 18px;
+	background-color: var(--cor-primaria);
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table td {
+    padding: 5px;
+    border: 1px solid #333;
+}

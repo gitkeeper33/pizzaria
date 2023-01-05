@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pizzaria Fantástica</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/90a414e190.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../public/css/styles.css">
+	<link rel="stylesheet" href="../public/css/index.css">
+	<link rel="stylesheet" href="../public/css/form-busca.css">
+</head>
+
+<body>
+
+	<form action="/busca" method="get" id="form-busca">
+		
+		<a id="logo" href="index.html">
+			<img src="../public/img/pizza.png" alt="Logo Pizzaria">
+		</a>
+		
+		<input type="text" name="q" placeholder="Qual pizza você procura?" autocomplete="off" value="">
+		
+		<button type="submit">Buscar</button>
+		
+		<a class="form-button" href="carrinho.html">
+			<span>18</span>
+			<i class="fa-solid fa-cart-shopping fa-2xl"></i>
+		</a>
+
+		<div class="menu form-button">
+			<i class="fa-solid fa-user fa-2xl"></i>
+			<ul>
+				<li>
+					<a href="perfil.html">
+						<i class="fa-solid fa-user-pen"></i>
+						<span>Editar Perfil</span>
+					</a>
+				</li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Endereços</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-money-check-dollar"></i>
+                        <span>Formas de Pagamento</span>
+                    </a>
+                </li>
+
+				<li>
+					<a href="#">
+						<i class="fa-solid fa-right-from-bracket"></i>
+						<span>Logout</span>
+					</a>
+				</li>
+
+			</ul>
+		</div>
+
+	</form>
+
+	<main>
+		<article>
+			<img src="../public/img/quatroqueijos.jpg" alt="Quatro Queijos">
+			<a href="pizza.html">Ver Mais</a>
+			<form action="index.html" method="post">
+				<button type="submit">+ Add</button>
+			</form>
+			<div>Quatro Queijos</div>
+			<span>R$ 33,90</span>
+		</article>
+		<article>
+			<img src="../public/img/pepperoni.jpg" alt="Pepperoni">
+			<a href="pizza.html">Ver Mais</a>
+			<form action="index.html" method="post">
+				<button type="submit">+ Add</button>
+			</form>
+			<div>Pepperoni</div>
+			<span>R$ 33,90</span>
+		</article>
+		<article>
+			<img src="../public/img/fracatu.jpg" alt="Fracatu">
+			<a href="pizza.html">Ver Mais</a>
+			<form action="index.html" method="post">
+				<button type="submit">+ Add</button>
+			</form>
+			<div>Fracatu</div>
+			<span>R$ 33,90</span>
+		</article>
+		<article>
+			<img src="../public/img/calabresa.jpg" alt="Calabresa">
+			<a href="pizza.html">Ver Mais</a>
+			<form action="index.html" method="post">
+				<button type="submit">+ Add</button>
+			</form>
+			<div>Calabresa</div>
+			<span>R$ 33,90</span>
+		</article>
+		<article>
+			<img src="../public/img/marguerita.jpg" alt="marguerita">
+			<a href="pizza.html">Ver Mais</a>
+			<form action="index.html" method="post">
+				<button type="submit">+ Add</button>
+			</form>
+			<div>Marguerita</div>
+			<span>R$ 33,90</span>
+		</article>
+		<article>
+			<img src="../public/img/quatroqueijos.jpg" alt="Quatro Queijos">
+			<a href="pizza.html">Ver Mais</a>
+			<form action="index.html" method="post">
+				<button type="submit">+ Add</button>
+			</form>
+			<div>Quatro Queijos</div>
+			<span>R$ 33,90</span>
+		</article>
+		<article>
+			<img src="../public/img/pepperoni.jpg" alt="Pepperoni">
+			<a href="pizza.html">Ver Mais</a>
+			<form action="index.html" method="post">
+				<button type="submit">+ Add</button>
+			</form>
+			<div>Pepperoni</div>
+			<span>R$ 33,90</span>
+		</article>
+		<article>
+			<img src="../public/img/fracatu.jpg" alt="Fracatu">
+			<a href="pizza.html">Ver Mais</a>
+			<form action="index.html" method="post">
+				<button type="submit">+ Add</button>
+			</form>
+			<div>Fracatu</div>
+			<span>R$ 33,90</span>
+		</article>
+		<article>
+			<img src="../public/img/calabresa.jpg" alt="Calabresa">
+			<a href="pizza.html">Ver Mais</a>
+			<form action="index.html" method="post">
+				<button type="submit">+ Add</button>
+			</form>
+			<div>Calabresa</div>
+			<span>R$ 33,90</span>
+		</article>
+		<article>
+			<img src="../public/img/marguerita.jpg" alt="marguerita">
+			<a href="pizza.html">Ver Mais</a>
+			<form action="index.html" method="post">
+				<button type="submit">+ Add</button>
+			</form>
+			<div>Marguerita</div>
+			<span>R$ 33,90</span>
+		</article>
+	</main>
+
+	<!--
+	<div class="pizza-nao-encontrada">Nenhuma pizza encontrada. Tente ser menos específico na sua busca.</div>
+	-->
+
+</body>
+
+</html>
