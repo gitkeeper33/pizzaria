@@ -5,7 +5,7 @@ const path = require("path")
 // criar o servidor
 const servidor = express()
 
-servidor.use(express.static(path.join(__dirname, 'public')))
+servidor.use(express.static(path.join(__dirname, 'src')))
 
 // definir uma rota neste servidor
 // endereço, método, função callback e a ação que o servidor vai realizar quando o servidor chegar
