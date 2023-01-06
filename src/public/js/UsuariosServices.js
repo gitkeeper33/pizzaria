@@ -1,4 +1,4 @@
-const usuarios = require("../databases/usuarios.json")
+const usuarios = require('../../databases/usuarios.json')
 const fs = require('fs')
 const bcrypt = require('bcrypt')
 
@@ -44,7 +44,8 @@ function cadastrar(objeto){
     }
 
     usuarios.push(usuario)
-    fs.writeFileSync('./databases/usuarios.json', JSON.stringify(usuarios, null, 4))
+    fs.writeFileSync('../databases/usuarios.json', JSON.stringify(usuarios, null, 4))
+
 }
 
 function detalhar(idUsuario){

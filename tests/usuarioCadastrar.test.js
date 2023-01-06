@@ -1,5 +1,5 @@
-const { cadastrar } = require('../services/UsuariosServices')
-const UsuariosServices = require('../services/UsuariosServices')
+const { cadastrar } = require('../src/public/js/UsuariosServices')
+const UsuariosServices = require('../src/public/js/UsuariosServices')
 
 let usuarioDeTeste = {
     nome: "Ronaldo",
